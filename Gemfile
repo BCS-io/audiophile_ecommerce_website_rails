@@ -37,6 +37,11 @@ gem 'amazing_print'
 gem 'rails_semantic_logger'
 
 group :development, :test do
+  # bundler-audit enables bundle audit which analyzes our
+  # dependencies for known vulnerabilities
+  gem 'bundler-audit'
+  # Brakeman analyzes our code for security vulnerabilities
+  gem 'brakeman'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # All runtime config comes from the UNIX environment but we
