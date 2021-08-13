@@ -38,6 +38,8 @@ gem 'rails_semantic_logger'
 
 gem 'stimulus-rails'
 
+gem "view_component", require: "view_component/engine"
+
 group :development, :test do
   # bundler-audit enables bundle audit which analyzes our
   # dependencies for known vulnerabilities
