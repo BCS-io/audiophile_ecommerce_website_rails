@@ -30,6 +30,12 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem "aws-sdk-s3", require: false
 
+# get colorized output of semantic data
+gem 'amazing_print'
+# gem replaces the default Rails logger with Semantic Logger. It also
+# reduces Rails logging output in production to almost a single line for every Controller-Action call.
+gem 'rails_semantic_logger'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
