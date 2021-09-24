@@ -36,6 +36,8 @@ gem 'amazing_print'
 # reduces Rails logging output in production to almost a single line for every Controller-Action call.
 gem 'rails_semantic_logger'
 
+gem 'stimulus-rails'
+
 group :development, :test do
   # bundler-audit enables bundle audit which analyzes our
   # dependencies for known vulnerabilities
