@@ -5,3 +5,9 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import { Alert, Modal, Slideover } from "tailwindcss-stimulus-components"
+
+application.register("alert", Alert)
+application.register("modal", Modal)
+application.register("slideover", Slideover)
