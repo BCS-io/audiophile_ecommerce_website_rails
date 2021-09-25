@@ -42,4 +42,12 @@
   .type-sub-title {
     @apply text-xs font-bold uppercase tracking-wider text-tan-200;
   }
+
+  .but-100 {
+    @apply w-40 h-12 text-xs font-bold uppercase tracking-tighter text-white bg-tan-200 hover:bg-tan-100;
+  }
+
+  .but-200 {
+    @apply w-40 h-12 text-xs font-bold uppercase tracking-tighter text-black hover:text-white bg-white hover:bg-black border border-black;
+  }
 }
