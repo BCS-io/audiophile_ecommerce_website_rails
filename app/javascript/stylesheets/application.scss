@@ -1,3 +1,11 @@
+:root {
+  --color-seashell-100: hsl(0, 0%, 98%);
+  --color-seashell-200: hsl(0, 0%, 95%);
+  --color-tan-100: hsl(21, 94%, 75%);
+  --color-tan-200: hsl(22, 65%, 57%);
+  --color-cod-gray-100: hsl(0, 0%, 6%);
+}
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

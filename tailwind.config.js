@@ -13,6 +13,21 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      colors: {
+        seashell: {
+          100: "var(--color-seashell-100)",
+          200: "var(--color-seashell-200)",
+        },
+        tan: {
+          100: "var(--color-tan-100)",
+          200: "var(--color-tan-200)",
+        },
+        "cod-gray": {
+          100: "var(--color-cod-gray-100)",
+        },
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
