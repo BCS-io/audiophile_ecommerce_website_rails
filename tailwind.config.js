@@ -1,4 +1,5 @@
 const colors = require("tailwindcss/colors")
+const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
   mode: "jit",
@@ -27,6 +28,9 @@ module.exports = {
         "cod-gray": {
           100: "var(--color-cod-gray-100)",
         },
+      },
+      fontFamily: {
+        sans: ["Manrope", defaultTheme.fontFamily.sans],
       },
     },
     screens: {
@@ -307,16 +311,16 @@ module.exports = {
       ],
     },
     fontSize: {
-      xs: ["0.75rem", { lineHeight: "1rem" }],
-      sm: ["0.875rem", { lineHeight: "1.25rem" }],
-      base: ["1rem", { lineHeight: "1.5rem" }],
-      lg: ["1.125rem", { lineHeight: "1.75rem" }],
+      xs: ["0.8125rem", { lineHeight: "1.5625rem" }],
+      sm: ["0.875rem", { lineHeight: "1.1875rem" }],
+      base: ["1rem", { lineHeight: "1.5625rem" }],
+      lg: ["1.125rem", { lineHeight: "1.5rem" }],
       xl: ["1.25rem", { lineHeight: "1.75rem" }],
-      "2xl": ["1.5rem", { lineHeight: "2rem" }],
-      "3xl": ["1.875rem", { lineHeight: "2.25rem" }],
-      "4xl": ["2.25rem", { lineHeight: "2.5rem" }],
-      "5xl": ["3rem", { lineHeight: "1" }],
-      "6xl": ["3.75rem", { lineHeight: "1" }],
+      "2xl": ["1.5rem", { lineHeight: "2.0625rem" }],
+      "3xl": ["1.75rem", { lineHeight: "2.375rem" }],
+      "4xl": ["2rem", { lineHeight: "2.25rem" }],
+      "5xl": ["2.5rem", { lineHeight: "2.75rem" }],
+      "6xl": ["3.5rem", { lineHeight: "3.625rem" }],
       "7xl": ["4.5rem", { lineHeight: "1" }],
       "8xl": ["6rem", { lineHeight: "1" }],
       "9xl": ["8rem", { lineHeight: "1" }],
@@ -517,12 +521,12 @@ module.exports = {
       },
     },
     letterSpacing: {
-      tighter: "-0.05em",
-      tight: "-0.025em",
-      normal: "0em",
-      wide: "0.025em",
-      wider: "0.05em",
-      widest: "0.1em",
+      tighter: "0.0625em" /* 1px */,
+      tight: "0.071875em" /* 1.15px */,
+      normal: "0.08125em" /* 1.3px */,
+      wide: "0.09375em" /* 1.5px */,
+      wider: "0.10625em" /* 1.7px */,
+      widest: "0.125em" /* 2px */,
     },
     lineHeight: {
       none: "1",

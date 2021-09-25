@@ -9,3 +9,37 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer components {
+  .type-h1 {
+    @apply text-6xl font-bold uppercase;
+  }
+
+  .type-h2 {
+    @apply text-5xl font-bold uppercase;
+  }
+
+  .type-h3 {
+    @apply text-4xl font-bold uppercase;
+  }
+
+  .type-h4 {
+    @apply text-3xl font-bold uppercase;
+  }
+
+  .type-h5 {
+    @apply text-2xl font-bold uppercase;
+  }
+
+  .type-h6 {
+    @apply text-lg font-bold uppercase text-black;
+  }
+
+  .type-overline {
+    @apply text-sm font-normal uppercase tracking-[10px] text-tan-200;
+  }
+
+  .type-sub-title {
+    @apply text-xs font-bold uppercase tracking-wider text-tan-200;
+  }
+}
